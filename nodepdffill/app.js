@@ -17,7 +17,37 @@ app.get('/', async (req, res, next) => {
   const form = pdfDoc.getForm()
   
   // Fill the form's fields
-  form.getTextField('employer_name').setText('Jolanda Neff');
+  form.getTextField('employer_name').setText('Demo PDF');
+  form.getTextField('paye_reference').setText('123456Q');
+  form.getTextField('surname').setText('Smith');
+  form.getTextField('first_names').setText('Anders');
+  form.getTextField('works_number').setText('123A');
+  form.getTextField('ni_1').setText('1');
+  form.getTextField('ni_2').setText('2');
+  form.getTextField('ni_3').setText('3');
+  form.getTextField('ni_4').setText('4');
+  form.getTextField('ni_5').setText('5');
+  form.getTextField('ni_6').setText('6');
+  form.getTextField('ni_7').setText('7');
+  form.getTextField('ni_8').setText('8');
+  form.getTextField('ni_9').setText('A');
+  form.getTextField('director').setText('Y')
+  form.getTextField('dob_d1').setText('0');
+  form.getTextField('dob_d2').setText('6');
+  form.getTextField('dob_m1').setText('1');
+  form.getTextField('dob_m2').setText('1');
+  form.getTextField('dob_y1').setText('1');
+  form.getTextField('dob_y2').setText('9');
+  form.getTextField('dob_y3').setText('9');
+  form.getTextField('dob_y4').setText('4');
+  form.getTextField('gender').setText('M');
+  form.getTextField('class_i_cost').setText('200');
+  form.getTextField('class_i_made_good').setText('50');
+  form.getTextField('class_i_cash_equivalent').setText('150');
+  form.getTextField('class_m_description').setText('turbogym');
+  form.getTextField('class_m_cost').setText('100');
+  form.getTextField('class_m_made_good').setText('20');
+  form.getTextField('class_m_cash_equivalent').setText('80');
 
   // Flatten the form's fields
   form.flatten();

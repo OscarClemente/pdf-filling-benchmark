@@ -1,6 +1,36 @@
 %FDF-1.2
 1 0 obj<</FDF<< /Fields[
-<</T(employer_name)/V(Annie Clark)>>
+<</T(employer_name)/V(Demo PDF)>>
+<</T(paye_reference)/V(123456Q)>>
+<</T(surname)/V(Smith)>>
+<</T(first_names)/V(Anders)>>
+<</T(works_number)/V(123A)>>
+<</T(ni_1)/V(1)>>
+<</T(ni_2)/V(2)>>
+<</T(ni_3)/V(3)>>
+<</T(ni_4)/V(4)>>
+<</T(ni_5)/V(5)>>
+<</T(ni_6)/V(6)>>
+<</T(ni_7)/V(7)>>
+<</T(ni_8)/V(8)>>
+<</T(ni_9)/V(A)>>
+<</T(director)/V(Y)>>
+<</T(dob_d1)/V(0)>>
+<</T(dob_d2)/V(6)>>
+<</T(dob_m1)/V(1)>>
+<</T(dob_m2)/V(1)>>
+<</T(dob_y1)/V(1)>>
+<</T(dob_y2)/V(9)>>
+<</T(dob_y3)/V(9)>>
+<</T(dob_y4)/V(4)>>
+<</T(gender)/V(M)>>
+<</T(class_i_cost)/V(200)>>
+<</T(class_i_made_good)/V(50)>>
+<</T(class_i_cash_equivalent)/V(150)>>
+<</T(class_m_description)/V(turbogym)>>
+<</T(class_m_cost)/V(100)>>
+<</T(class_m_made_good)/V(20)>>
+<</T(class_m_cash_equivalent)/V(80)>>
 ] >> >>
 endobj
 trailer
