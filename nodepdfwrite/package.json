@@ -1,0 +1,16 @@
+{
+  "name": "nodepdfwrite",
+  "version": "1.0.0",
+  "description": "node application to write text in pdfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OscarClemente",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdf-lib": "^1.17.1",
+    "uuid": "^9.0.0"
+  }
+}

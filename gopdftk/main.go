@@ -11,7 +11,6 @@ import (
 )
 
 func DownloadFile(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Serving pdf")
 	start := time.Now()
 	out, err := exec.Command("./pdftk", "p11D.pdf", "fill_form", "commands.fdf", "output", "pdftkfile.pdf", "flatten").Output()
 	if err != nil {

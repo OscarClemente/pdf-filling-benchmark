@@ -30,7 +30,7 @@ app.get('/', async (req, res, next) => {
   form.getTextField('ni_6').setText('6');
   form.getTextField('ni_7').setText('7');
   form.getTextField('ni_8').setText('8');
-  form.getTextField('ni_9').setText('A');
+  form.getTextField('ni_9').setText('B');
   form.getTextField('director').setText('Y')
   form.getTextField('dob_d1').setText('0');
   form.getTextField('dob_d2').setText('6');
@@ -54,21 +54,14 @@ app.get('/', async (req, res, next) => {
 
   // Serialize the PDFDocument to bytes (a Uint8Array)
   const pdfBytes = await pdfDoc.save()
-  fs.writeFileSync(id+'.pdf', pdfBytes);
   
   var endTime = performance.now()
-  console.log(`Call to doSomething took ${endTime - startTime} milliseconds`)
+  console.log(`Call to fill took ${endTime - startTime} milliseconds`)
 
-  const options = {
-    root: __dirname,
-    dotfiles: 'deny',
-    headers: {
-      'x-timestamp': Date.now(),
-      'x-sent': true
-    }
-  }
   console.log("Returning file")
-  res.sendFile(id+'.pdf', options);
+  res.setHeader("Content-Disposition", 'attachment; filename=' + id + ".pdf");
+  res.setHeader('Content-Type', 'application/pdf');
+  res.send(Buffer.from(pdfBytes))
 })
   
 app.listen(PORT, (error) =>{

@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"sync"
 	"time"
 )
 
@@ -41,14 +42,24 @@ func main() {
 	fmt.Println("Go web app started on port 3000")
 	setupRoutes()
 
-	getFileFrom("http://nodepdffill:3000", "node.pdf")
-	getFileFrom("http://gopdftk:3000", "go.pdf")
+	time.Sleep(2 * time.Second)
+	//getFileFrom("http://nodepdffill:3000", "node.pdf")
+	//getFileFrom("http://gopdftk:3000", "go.pdf")
+	//getFileFrom("http://nodepdfwrite:3000", "nodepdfwrite.pdf")
+	const calls = 100
+	const otherCalls = 100
+
+	dur1 := getFileFromConcurrently("http://nodepdffill:3000", otherCalls)
+	dur2 := getFileFromConcurrently("http://gopdftk:3000", calls)
+	dur3 := getFileFromConcurrently("http://nodepdfwrite:3000", otherCalls)
+	fmt.Println("nodepdffill:", dur1, otherCalls, "pdftk:", dur2, calls, "nodepdfwrite:", dur3, otherCalls)
 
 	http.ListenAndServe(":3000", nil)
 }
 
 func getFileFrom(url, filename string) {
-	time.Sleep(4 * time.Second)
+	time.Sleep(1 * time.Second)
+
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatalln(err)
@@ -63,8 +74,38 @@ func getFileFrom(url, filename string) {
 
 	fmt.Println(url, "Cool")
 
-	err = os.WriteFile(filename, body, 0644)
-	if err != nil {
-		fmt.Println("Error writing file")
+	if len(filename) > 0 {
+		err = os.WriteFile(filename, body, 0644)
+		if err != nil {
+			fmt.Println("Error writing file")
+		}
 	}
+}
+
+func getFileFromConcurrently(url string, calls int) time.Duration {
+	fmt.Println("-- Getting files from", url)
+	time.Sleep(2 * time.Second)
+
+	var wg sync.WaitGroup
+	start := time.Now()
+	for i := 0; i < calls; i++ {
+		i := i
+		// Increment the WaitGroup counter.
+		wg.Add(1)
+		// Launch a goroutine to fetch the URL.
+		go func(url string) {
+			// Decrement the counter when the goroutine completes.
+			defer wg.Done()
+			// Fetch the URL.
+			_, err := http.Get(url)
+			if err != nil {
+				fmt.Println(url, "failed", i, err)
+			}
+		}(url)
+	}
+	// Wait for all HTTP fetches to complete.
+	wg.Wait()
+	dur := time.Since(start)
+	fmt.Println("-- Finished", url, dur)
+	return dur
 }
