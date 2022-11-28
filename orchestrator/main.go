@@ -42,17 +42,16 @@ func main() {
 	fmt.Println("Go web app started on port 3000")
 	setupRoutes()
 
-	time.Sleep(2 * time.Second)
+	time.Sleep(3 * time.Second)
 	//getFileFrom("http://nodepdffill:3000", "node.pdf")
 	//getFileFrom("http://gopdftk:3000", "go.pdf")
 	//getFileFrom("http://nodepdfwrite:3000", "nodepdfwrite.pdf")
-	const calls = 100
-	const otherCalls = 100
+	const calls = 1000
 
-	dur1 := getFileFromConcurrently("http://nodepdffill:3000", otherCalls)
-	dur2 := getFileFromConcurrently("http://gopdftk:3000", calls)
-	dur3 := getFileFromConcurrently("http://nodepdfwrite:3000", otherCalls)
-	fmt.Println("nodepdffill:", dur1, otherCalls, "pdftk:", dur2, calls, "nodepdfwrite:", dur3, otherCalls)
+	dur1 := getFileFromConcurrently("http://nodepdffill:3000", calls)
+	//dur2 := getFileFromConcurrently("http://gopdftk:3000", calls)
+	dur3 := getFileFromConcurrently("http://nodepdfwrite:3000", calls)
+	fmt.Println("nodepdffill:", dur1, calls, "nodepdfwrite:", dur3, calls)
 
 	http.ListenAndServe(":3000", nil)
 }
