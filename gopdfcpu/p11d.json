@@ -1,0 +1,1161 @@
+{
+	"header": {
+		"source": "p11d.pdf",
+		"version": "pdfcpu v0.5.0 dev",
+		"creation": "2023-09-04 17:58:01 CEST",
+		"title": "P11D (2022)",
+		"author": "HMRC",
+		"creator": "QuarkXPress(R) 8.15",
+		"producer": "QuarkXPress(R) 8.15",
+		"subject": "Expenses and benefits 2021 to 2022",
+		"keywords": "P11D (2022); P11D(2022); Expenses and benefits 2021 to 2022; Expenses and benefits"
+	},
+	"forms": [
+		{
+			"textfield": [
+				{
+					"pages": [
+						1
+					],
+					"id": "265",
+					"name": "dob_m1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "212",
+					"name": "works_number",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "247",
+					"name": "fill_33",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "252",
+					"name": "fill_38",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "264",
+					"name": "dob_d2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "269",
+					"name": "dob_y3",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "216",
+					"name": "class_a_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "227",
+					"name": "class_f_car1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "213",
+					"name": "ni_9",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "238",
+					"name": "fill_27",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "244",
+					"name": "undefined_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "250",
+					"name": "fill_35",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "268",
+					"name": "dob_y2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "257",
+					"name": "ni_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "258",
+					"name": "ni_3",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "211",
+					"name": "dob_d1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "217",
+					"name": "class_a_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "255",
+					"name": "first_names",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "210",
+					"name": "director",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "221",
+					"name": "class_b_tax",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "222",
+					"name": "class_c_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "231",
+					"name": "Read P11D Guide for_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "253",
+					"name": "fill_39",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "215",
+					"name": "class_a_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "219",
+					"name": "class_b_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "237",
+					"name": "Row1_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "262",
+					"name": "ni_7",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "249",
+					"name": "9",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "218",
+					"name": "class_a_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "225",
+					"name": "class_d_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "229",
+					"name": " Row1_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "248",
+					"name": "Total cash equivalent or relevant amount of all cars made available in 2021 to 2022",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "256",
+					"name": "ni_1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "260",
+					"name": "ni_5",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "209",
+					"name": "paye_reference",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "226",
+					"name": "class_e_tax",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "230",
+					"name": "Read P11D Guide for",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "233",
+					"name": "gkmRow1_2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "234",
+					"name": "milesRow1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "246",
+					"name": "fill_34",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "208",
+					"name": "employer_name",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "223",
+					"name": "class_c_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "228",
+					"name": " Row1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "235",
+					"name": "Do not complete the From box if the car was available on 5 April 2021 or the To box",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "242",
+					"name": "fill_31",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "254",
+					"name": "surname",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "214",
+					"name": "gender",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "236",
+					"name": "Row1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "241",
+					"name": "fill_30",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "245",
+					"name": "undefined_3",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "261",
+					"name": "ni_6",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "220",
+					"name": "class_b_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "224",
+					"name": "class_c_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "239",
+					"name": "fill_28",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "263",
+					"name": "ni_8",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "270",
+					"name": "dob_y4",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "243",
+					"name": "fill_32",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "259",
+					"name": "ni_4",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "266",
+					"name": "dob_m2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "232",
+					"name": "gkmRow1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "240",
+					"name": "fill_29",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "251",
+					"name": "fill_37",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						1
+					],
+					"id": "267",
+					"name": "dob_y1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "74",
+					"name": "fill_7",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "78",
+					"name": "fill_9",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "121",
+					"name": "class_k_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "95",
+					"name": "class_m_2_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "120",
+					"name": "class_j_excess",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "119",
+					"name": "class_m_tax",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "88",
+					"name": "class_i_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "102",
+					"name": "class_n_other_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "114",
+					"name": "class_n_phone_taxable",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "82",
+					"name": "fill_13",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "107",
+					"name": "class_m_2_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "77",
+					"name": "Loan 1",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "94",
+					"name": "class_m_2_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "100",
+					"name": "class_n_other_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "75",
+					"name": "fill_8",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "79",
+					"name": "fill_10",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "87",
+					"name": "fill_18",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "123",
+					"name": "class_m_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "108",
+					"name": "class_l_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "93",
+					"name": "class_n_travelling_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "105",
+					"name": "class_m_2_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "117",
+					"name": "class_n_travelling_taxable",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "76",
+					"name": "Loan 2",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "80",
+					"name": "fill_11",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "84",
+					"name": "fill_15",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "85",
+					"name": "fill_16",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "116",
+					"name": "class_n_relocation_taxable",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "81",
+					"name": "fill_12",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "89",
+					"name": "class_i_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "125",
+					"name": "class_n_phone_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "99",
+					"name": "class_n_relocation_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "112",
+					"name": "class_n_other_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "124",
+					"name": "class_i_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "106",
+					"name": "class_m_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "122",
+					"name": "class_n_entertainment_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "103",
+					"name": "class_n_phone_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "101",
+					"name": "class_n_other_taxable",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "92",
+					"name": "class_k_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "96",
+					"name": "class_n_travelling_made_good",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "109",
+					"name": "class_n_entertainment_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "111",
+					"name": "class_n_entertainment_taxable",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "86",
+					"name": "fill_17",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "110",
+					"name": "class_l_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "118",
+					"name": "class_m_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "83",
+					"name": "fill_14",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "91",
+					"name": "class_l_description",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "90",
+					"name": "class_l_cash_equivalent",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "113",
+					"name": "class_m_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "126",
+					"name": "class_k_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				},
+				{
+					"pages": [
+						2
+					],
+					"id": "115",
+					"name": "class_n_relocation_cost",
+					"value": "",
+					"multiline": false,
+					"locked": false
+				}
+			],
+			"checkbox": [
+				{
+					"pages": [
+						2
+					],
+					"id": "104",
+					"name": "trading organisations read P11D Guide and then enter a tick",
+					"default": false,
+					"value": false,
+					"locked": false
+				}
+			]
+		}
+	]
+}
